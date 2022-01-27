@@ -1,0 +1,318 @@
+@media (max-width: 1200px)
+	.menu
+		margin: 0
+		padding: 13px 50px
+		li:nth-child(odd)
+			margin: 0
+			padding: 0
+		li:nth-child(even)
+			padding: 0 40px
+		li
+			a
+				font-size: 12px
+	.top
+		h1
+			font-size: 50px
+		h2
+			font-size: 30px
+	.mobile-item
+		width: 300px
+	.footer_mobile
+		display: flex
+		flex-direction: column
+		margin-left: 30px
+		a
+			padding-bottom: 8px
+	.footer
+		&_links
+			width: 350px
+@media (max-width: 991px)     // ---- media -----
+	.menu
+		margin: 0
+		padding: 13px 30px
+		li:nth-child(odd)
+			margin: 0
+			padding: 0
+		li:nth-child(even)
+			padding: 0 18px
+		li
+			a
+				font-size: 14px
+	.header-contacts
+		&__logo
+			img
+				width: 100%
+		&__phone
+			font-size: 20px
+			line-height: 22px
+	.top
+		h1
+			font-size: 45px
+		h2
+			font-size: 30px
+	.btn.btn-top
+		width: 142px
+		height: 40px
+		margin-top: 22px
+	.btn.btn-bottom
+		width: 189px
+		height: 48px
+		font-size: 16px
+	.h2
+		font-size: 30px
+	.reason-wrapper
+		flex-direction: column
+	.reason__img
+		margin-bottom: 10px
+	.reason-item
+		width: 343px
+		.reason__title
+			text-align: center
+			margin-bottom: 10px
+		.reason__descr
+			text-align: center
+	.mobile-item
+		width: 320px
+		padding: 62px 0 0 0
+	.uberx
+		min-height: 800px
+		&__img
+			width: 100%
+	.map
+		min-height: 650px
+	.all-cities
+		margin-top: 358px
+	.footer
+		&_links
+			width: 310px
+		&_mobile
+			margin-left: 0
+@media (max-width: 767px)     // ---- media -----
+	.menu
+		position: fixed
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		top: 0
+		left: -100%
+		width: 50%
+		height: 100vh
+		padding: 20px 15px
+		background-color: rgba(0, 0, 0, .9)
+		transition: left 0.6s ease
+		&_active
+			left: 0
+		li:nth-child(even)
+			padding: 0
+			border: none
+		li
+			margin: 10px 0
+			padding: 5px 0
+			a
+				display: block
+				font-size: 20px
+				line-height: 35px
+				transition: color 0.3s ease
+				&:hover, &:focus
+					color: $main-color
+		&_item
+			width: 100%
+			text-align: center
+	.header-contacts
+		&__phone
+			font-size: 18px
+			line-height: 20px
+	.btn.btn-top
+		float: right
+		margin-top: 10px
+	.top
+		h1
+			font-size: 40px
+		h2
+			font-size: 26px
+		&__descr
+			font-size: 16px
+	.reason-item
+		width: 500px
+		.reason__title
+			font-size: 22px
+			font-size: 22px
+		.reason__descr
+			font-size: 18px
+			line-height: 21px
+	.hamburger
+		display: block
+		position: absolute
+		right: 10px
+		top: 50%
+		transform: translateY(-50%)
+		width: 26px
+		height: 12px
+		span
+			display: block
+			height: 2px
+			width: 100%
+			background-color: #fff
+			margin-bottom: 2px
+			transition: all 0.5s ease
+		&_active
+			span
+				&:first-child
+					transform: rotate(-45deg) translateX(-3px)
+				&:last-child
+					transform: rotate(45deg) translateX(-3px)
+				&:nth-child(2)
+					display: none
+	.mobile
+		padding: 40px 0
+	.uberx
+		min-height: 600px
+		padding: 40px 0
+	.conditions
+		padding: 40px 0
+	.map
+		min-height: 450px
+	.all-cities
+		margin-top: 228px
+	.footer
+		&_social
+			margin: 0 auto
+		&_links
+			margin: 0 auto
+		&_mobile
+			flex-direction: row
+			justify-content: center
+@media (max-width: 575px)     // ---- media -----
+	header
+		nav
+			height: 50px
+	.header-contacts
+		height: 60px
+		&__tagline
+			display: none
+		&__logo
+			margin-top: 17px
+		&__phone
+			margin-top: 5px
+			font-size: 14px
+			line-height: 16px
+			padding-right: 5px
+	.btn.btn-top
+		padding: 3px 9px
+		width: 120px
+		height: 28px
+		font-size: 13px
+		margin-top: 5px
+	.menu
+		width: 100%
+		li
+			a
+				font-size: 18px
+	.top
+		min-height: 400px
+		padding: 93px 0 35px 0
+		h1
+			font-size: 30px
+			line-height: 32px
+		h2
+			margin-top: 25px
+			font-size: 20px
+			line-height: 20px
+		&__descr
+			display: none
+	.btn.btn-bottom
+		margin-top: 50px
+		width: 150px
+		height: 40px
+		font-size: 14px
+	.h2
+		font-size: 20px
+		margin: 28px auto 0
+	.h3
+		font-size: 18px
+	.reason-item
+		width: 300px
+		padding: 10px 0
+		.reason__title
+			font-size: 18px
+			font-size: 20px
+		.reason__descr
+			font-size: 15px
+			line-height: 17px
+	.reason__img
+		margin: 0 auto 10px
+		img
+			width: 80px
+			height: 80px
+	.mobile
+		padding: 20px 0 40px 0
+		.row
+			margin-top: 30px
+		&-item
+			width: 300px
+			height: 240px
+			padding: 81px 0 0 0
+		&-item_descr
+			font-size: 20px
+			line-height: 31px
+		&_plus 
+			bottom: 28px
+	.uberx
+		padding: 25px 0 33px 0
+		min-height: 390px
+		background: #000000
+		&__img
+			margin-top: 35px
+		&__descr
+			margin-top: 23px
+			color: #ffffff
+			font-size: 17px
+			font-weight: 300
+			line-height: 24px
+		&-black
+			display: none
+	.hidden-320
+		display: none
+	.conditions
+		padding: 25px
+		&__wrapper
+			margin: 30px 0 0 0
+		&__title
+			font-size: 16px
+		&__list
+			font-size: 14px
+			margin-bottom: 5px
+			line-height: 20px
+	.map
+		min-height: 360px
+		padding: 25px 0
+	.all-cities
+		width: 200px
+		display: block
+		bottom: 30px
+		line-height: 15px
+	.footer
+		&_divider
+			width: 250px
+			margin: 0 auto
+		&_social
+			padding-top: 12px
+		&_mobile
+			margin-left: 20px
+			padding-bottom: 20px
+			a
+				padding: 0 5px
+				img
+					width: 100%
+		&_links
+			width: 300px
+			&_main
+				justify-content: center
+				a
+					padding: 0 5px
+			&_sub
+				justify-content: center
+				a
+					padding: 0 5px
+			&_lang
+				margin-top: 10px
