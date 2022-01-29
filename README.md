@@ -1,1 +1,1 @@
-Bootstrap-grid and flexbox based site with a mobile adaptation. 
+Bootstrap-grid, Flexbox, mobile adaptation. 
