@@ -1,1 +1,1 @@
-Bootstrap-grid, Flexbox, mobile adaptation. 
+### Bootstrap grid, Flexbox, mobile adaptation, SASS, global variables.
